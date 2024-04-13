@@ -10,7 +10,6 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <h1>React App</h1>
         <Routes>
           <Route exact path="/" element={<Dashboard/>} />
           <Route path="/about" element={<About/>} />
